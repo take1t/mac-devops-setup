@@ -28,7 +28,7 @@ homebrew_installed_packages:
   - python3
   - pipenv # Python dependency management tool
   # *** Javascript ***
-  - nvm # Manage multiple Node.js versions
+  - volta # Manage multiple Node.js versions (replace nvm)
   - node # Node JS
   # Shell Utilities 
   - mas # Mac App Store command-line interface
@@ -51,6 +51,8 @@ homebrew_installed_packages:
   - tldr # Simplified and community-driven man pages
   - tmux # Terminal multiplexer
   - bat # Clone of cat(1) with syntax highlighting and Git integration
+  - awscli # AWS CLI
+  - ripgrep # Search tool like grep but much faster
 
 
 homebrew_taps:
@@ -97,53 +99,21 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
-  - 803453959 #  Slack                           (4.10.3)
-  - 585829637 #  Todoist                         (7.6)
-  - 1481302432 #  Instapaper Save                 (1.2)
-  - 1153157709 #  Speedtest                       (1.20)
-  - 883878097 #  Server                          (5.11.1)
-  - 409907375 #  Remote Desktop                  (3.9.4)
-  - 1150771803 # Countdown Timer Plus            (3.2)
-  - 1147396723 # WhatsApp                        (2.2119.6)
-  - 1481669779 # Evernote Web Clipper            (1.0.11)
-  - 803453959 #  Slack                           (4.16.0)
-  - 640199958 #  Developer                       (9.0.1)
-  - 425955336 #  Skitch                          (2.9)
-  - 937984704 #  Amphetamine                     (5.0.3)
-  - 918858936 #  Airmail                         (5.0.4)
-  - 1295203466 # Microsoft Remote Desktop        (10.6.6)
-  - 747648890 #  Telegram                        (7.7)
-  - 1187772509 # stts                            (1.29)
-  - 549083868 #  Display Menu                    (2.2.3)
-  - 497799835 #  Xcode                           (12.5)
-  - 1475897096 # Jira                            (130.0.0)
-  - 1543803459 # G App Launcher                  (23.5.0)
-  - 937984704 #  Amphetamine                     (5.2.1)
-  - 411680127 #  WiFi Scanner                    (2.9.5)
-  - 1333542190 # 1Password 7                     (7.8.4)
-  - 946399090 #  Telegram Lite                   (2.4.7)
-  - 1147396723 # WhatsApp                        (2.2043.22)
-  - 409201541 #  Pages                           (11.0)
-  - 1354318707 # Core Tunnel                     (2.6)
-  - 425424353 #  The Unarchiver                  (4.3.3)
-  - 975890633 #  HotKey                          (1.5)
-  - 441258766 #  Magnet                          (2.6.0)
-  - 406056744 #  Evernote                        (10.14.7)
-  - 1160374471 # PiPifier                        (1.2.4)
-  - 1477385213 # Save to Pocket                  (1.1)
-  - 406056744 #  Evernote                        (10.3.7)
-  - 946399090 #  Telegram Lite                   (2.7.2)
-  - 1440147259 # AdGuard for Safari              (1.9.13)
-  - 462114288 # Grammarly for Safari            (9.33)
-  - 895933956 #  Hours                           (3.5.3)
-  - 1538761576 # Authenticator                   (3.6.1)
-  - 1452453066 # Hidden Bar                      (1.7)
-  - 1335612105 # MKPlayer                        (1.4.2) 
-  - 777233759 #  Focus                           (2021.1.0)
-  - 409203825 #  Numbers                         (11.0)
-  - 1018301773 # AdBlock Pro                     (9.0.2)
-  - 1482920575 # DuckDuckGo Privacy Essentials   (1.4.4)
-  - 973134470 #  Be Focused                      (2.1.1)
-  - 755731884 #  Alarm Clock                     (1.8)
-  - 409183694 #  Keynote                         (11.0.1)
-  - 1091149644 # Sleep Alarm Clock               (1.0)
+  - 425424353 # The Unarchiver
+  - 937984704 # Amphetamine
+  - 1199502670 # Teampaper Snap
+  - 425955336 # Skitch
+  - 472226235 # LanScan
+  - 973213640 # MSG Viewer for Outlook
+  - 1091189122 # Bear
+  - 568494494 # Pocket
+  - 409201541 # Pages
+  - 409183694 # Keynote
+  - 409203825 # Numbers
+  - 1295203466 # Microsoft Remote Desktop
+  - 513610341 # com.peacockmedia.integrity
+  - 1176895641 # Spark Email App by Readdle
+  - 1333542190 # 1password
+  - 803453959 # Slack
+  - 1510445899 # Meeter
+  - 1509590766 # MuteKey
